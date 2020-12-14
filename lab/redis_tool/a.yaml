@@ -1,0 +1,138 @@
+COMMENT_NEW:
+  Zkname:
+    Host: "all.inews_comment_count.redis.com"
+  Conf:
+    IdleConnNum:       100
+    ActiveConnNum:     4000
+    MaxConsumeNum:     2000
+    IdleTimeout:       10
+    ConnectTimeout:    100
+    ReadTimeout:       100
+    WriteTimeout:      100
+    EnableConnPool:    true
+    EnableAutoRetry:   false
+    EnableExtendProto: true
+
+COMMENT_COMMON:
+  Zkname:
+    Host: "sz2009.kameng_beforehand.redis.com"
+  Conf:
+      IdleConnNum:       100
+      ActiveConnNum:     4000
+      MaxConsumeNum:     2000
+      IdleTimeout:       10
+      ConnectTimeout:    100
+      ReadTimeout:       100
+      WriteTimeout:      100
+      EnableConnPool:    true
+      EnableAutoRetry:   false
+      EnableExtendProto: true
+
+LITE_USER_INFO_R:
+  Zkname:
+    Host: "all.inewslite_user_info.redis.com"
+  Conf:
+    IdleConnNum:       100
+    ActiveConnNum:     4000
+    MaxConsumeNum:     2000
+    IdleTimeout:       10
+    ConnectTimeout:    100
+    ReadTimeout:       100
+    WriteTimeout:      100
+    EnableConnPool:    true
+    EnableAutoRetry:   false
+    EnableExtendProto: true
+    Auth:              "+0m*rij^K20dZa"
+
+LITE_BSIDE_UPMESSAGE:
+  Zkname:
+    Host: "all.qqnews_lite_userdetail.redis.com"
+  Conf:
+    IdleConnNum:       1000
+    ActiveConnNum:     1000
+    MaxConsumeNum:     1000
+    IdleTimeout:       60
+    ConnectTimeout:    1000
+    ReadTimeout:       1000
+    WriteTimeout:      1000
+    EnableConnPool:    true
+    EnableAutoRetry:   false
+    EnableExtendProto: true
+    Auth: "GEGq;vJZ;J*E/"
+LITE_BSIDE_UPMESSAGE_TEST:
+  Zkname:
+    Host: "sz2009.kameng_beforehand.redis.com"
+  Conf:
+    IdleConnNum:       1000
+    ActiveConnNum:     1000
+    MaxConsumeNum:     1000
+    IdleTimeout:       60
+    ConnectTimeout:    1000
+    ReadTimeout:       1000
+    WriteTimeout:      1000
+    EnableConnPool:    true
+    EnableAutoRetry:   false
+    EnableExtendProto: true
+
+LITE_DISTRIBUTED_LOCK:
+  Zkname:
+    Host: "all.newslite_distributed_lock.redis.com"
+  Conf:
+    Auth: "ImIx/Ae!=@Pa@"
+    IdleConnNum:       10000
+    ActiveConnNum:     10000
+    MaxConsumeNum:     8000
+    IdleTimeout:       60
+    ConnectTimeout:    10
+    ReadTimeout:       10
+    WriteTimeout:      10
+    EnableConnPool:    true
+    EnableAutoRetry:   false
+    EnableExtendProto: true
+
+NEWS_USER_INFO_R:
+  Zkname:
+    Host: "all.front_user_info.redis.com"
+  Conf:
+    IdleConnNum:       100
+    ActiveConnNum:     4000
+    MaxConsumeNum:     2000
+    IdleTimeout:       10
+    ConnectTimeout:    100
+    ReadTimeout:       100
+    WriteTimeout:      100
+    EnableConnPool:    true
+    EnableAutoRetry:   false
+    EnableExtendProto: true
+    Auth: "5pt&oEfP#lCXbVL7dVep"
+LITE_USER_DETAIL:
+  Zkname:
+    Host: "all.qqnews_lite_userdetail.redis.com"
+  Conf:
+    IdleConnNum:       100
+    ActiveConnNum:     4000
+    MaxConsumeNum:     2000
+    IdleTimeout:       10
+    ConnectTimeout:    100
+    ReadTimeout:       100
+    WriteTimeout:      100
+    EnableConnPool:    true
+    EnableAutoRetry:   false
+    EnableExtendProto: true
+    Auth: "GEGq;vJZ;J*E/"
+
+LITE_USER_DETAIL_TEST:
+  Zkname:
+    Host: "sz2009.kameng_beforehand.redis.com"
+  Conf:
+    IdleConnNum:       100
+    ActiveConnNum:     4000
+    MaxConsumeNum:     2000
+    IdleTimeout:       10
+    ConnectTimeout:    100
+    ReadTimeout:       100
+    WriteTimeout:      100
+    EnableConnPool:    true
+    EnableAutoRetry:   false
+    EnableExtendProto: true
+    Auth: "zPFc@I#;h%%=8#h5"
